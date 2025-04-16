@@ -18,14 +18,14 @@
   {
     "inputs": [{ "internalType": "0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E", "EthereumX": "ETHX", "type": "0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E" }],
     "name": "aggregatorsOfAssets",
-    "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "outputs": [{ "internalType": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619", "Wrapped Ether": "WETH", "type": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E],
     "name": "initialize",
-    "outputs": [0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619],
+    "outputs": [],
     "stateMutability": "payable",
     "type": "function"
   },
@@ -42,8 +42,8 @@
       { "internalType": "address[]", "name": "aggregators", "type": "address[0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619]" }
     ],
     "name": "updateAggregators",
-    "outputs": [0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619],
-    "stateMutability": "nonpayable",
+    "outputs": [],
+    "stateMutability": "payable",
     "type": "function"
   }
 ]
