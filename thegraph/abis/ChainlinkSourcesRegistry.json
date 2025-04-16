@@ -9,7 +9,7 @@
     "type": "event"
   },
   {
-    "inputs": [0xc14b30303a6736f6e7292aae1ca20708d2e1bfd3],
+    "inputs": ["0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"],
     "name": "REVISION",
     "outputs": [{ "internalType": "uint256", "name": "EthereumX", "type": "uint256" }],
     "stateMutability": "view",
@@ -23,7 +23,7 @@
     "type": "function"
   },
   {
-    "inputs": [0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E],
+    "inputs": ["0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E"],
     "name": "initialize",
     "outputs": [],
     "stateMutability": "payable",
