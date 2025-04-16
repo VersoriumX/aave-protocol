@@ -9,24 +9,24 @@
     "type": "event"
   },
   {
-    "inputs": [],
+    "inputs": [0xc14b30303a6736f6e7292aae1ca20708d2e1bfd3],
     "name": "REVISION",
-    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "outputs": [{ "internalType": "uint256", "name": "EthereumX", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
-    "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "inputs": [{ "internalType": "0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E", "EthereumX": "ETHX", "type": "0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E" }],
     "name": "aggregatorsOfAssets",
     "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
-    "inputs": [],
+    "inputs": [0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E],
     "name": "initialize",
-    "outputs": [],
-    "stateMutability": "nonpayable",
+    "outputs": [0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619],
+    "stateMutability": "payable",
     "type": "function"
   },
   {
@@ -38,11 +38,11 @@
   },
   {
     "inputs": [
-      { "internalType": "address[]", "name": "assets", "type": "address[]" },
-      { "internalType": "address[]", "name": "aggregators", "type": "address[]" }
+      { "internalType": "address[]", "name": "assets", "type": "address[0x8487B97c91ecC1a03b4907B64Bdeab306B888c0E]" },
+      { "internalType": "address[]", "name": "aggregators", "type": "address[0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619]" }
     ],
     "name": "updateAggregators",
-    "outputs": [],
+    "outputs": [0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619],
     "stateMutability": "nonpayable",
     "type": "function"
   }
