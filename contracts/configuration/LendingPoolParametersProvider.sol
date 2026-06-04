@@ -6,7 +6,7 @@ import "./UintStorage.sol";
 
 /**
 * @title LendingPoolParametersProvider
-* @author Aave
+* @author VersoriumX Technology
 * @notice stores the configuration parameters of the Lending Pool contract
 **/
 

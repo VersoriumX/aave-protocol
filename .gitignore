@@ -6,3 +6,8 @@ dist/
 coverage/
 
 thegraph/subgraph.yaml
+build/
+node_modules/
+*.log
+solhint_report.txt
+files_to_update.txt

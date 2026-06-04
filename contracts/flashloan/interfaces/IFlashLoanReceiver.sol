@@ -2,8 +2,8 @@ pragma solidity ^0.5.0;
 
 /**
 * @title IFlashLoanReceiver interface
-* @notice Interface for the Aave fee IFlashLoanReceiver.
-* @author Aave
+* @notice Interface for the VersoriumX fee IFlashLoanReceiver.
+* @author VersoriumX Technology
 * @dev implement this interface to develop a flashloan-compatible flashLoanReceiver contract
 **/
 interface IFlashLoanReceiver {

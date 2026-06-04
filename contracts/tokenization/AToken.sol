@@ -10,10 +10,10 @@ import "../lendingpool/LendingPoolCore.sol";
 import "../libraries/WadRayMath.sol";
 
 /**
- * @title Aave ERC20 AToken
+ * @title VersoriumX ERC20 AToken
  *
  * @dev Implementation of the interest bearing token for the DLP protocol.
- * @author Aave
+ * @author VersoriumX Technology
  */
 contract AToken is ERC20, ERC20Detailed {
     using WadRayMath for uint256;

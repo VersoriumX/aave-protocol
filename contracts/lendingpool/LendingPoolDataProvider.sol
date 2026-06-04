@@ -14,7 +14,7 @@ import "./LendingPoolCore.sol";
 
 /**
 * @title LendingPoolDataProvider contract
-* @author Aave
+* @author VersoriumX Technology
 * @notice Implements functions to fetch data from the core, and aggregate them in order to allow computation
 * on the compounded balances and the account balances in ETH
 **/

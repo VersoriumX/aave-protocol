@@ -41,4 +41,7 @@ contract ILendingPoolAddressesProvider {
     function getLendingRateOracle() public view returns (address);
     function setLendingRateOracle(address _lendingRateOracle) public;
 
+    function getSingularityConfig() public view returns (address);
+    function setSingularityConfigImpl(address _singularityConfig) public;
+
 }

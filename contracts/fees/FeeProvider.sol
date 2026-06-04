@@ -8,7 +8,7 @@ import "../libraries/WadRayMath.sol";
 /**
 * @title FeeProvider contract
 * @notice Implements calculation for the fees applied by the protocol
-* @author Aave
+* @author VersoriumX Technology
 **/
 contract FeeProvider is IFeeProvider, VersionedInitializable {
     using WadRayMath for uint256;

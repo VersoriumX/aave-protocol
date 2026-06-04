@@ -10,7 +10,7 @@ import "../interfaces/ILendingPoolAddressesProvider.sol";
 * @title LendingPoolAddressesProvider contract
 * @notice Is the main registry of the protocol. All the different components of the protocol are accessible
 * through the addresses provider.
-* @author Aave
+* @author VersoriumX Technology
 **/
 
 contract LendingPoolAddressesProvider is Ownable, ILendingPoolAddressesProvider, AddressStorage {
@@ -44,6 +44,7 @@ contract LendingPoolAddressesProvider is Ownable, ILendingPoolAddressesProvider,
     bytes32 private constant FEE_PROVIDER = "FEE_PROVIDER";
     bytes32 private constant WALLET_BALANCE_PROVIDER = "WALLET_BALANCE_PROVIDER";
     bytes32 private constant TOKEN_DISTRIBUTOR = "TOKEN_DISTRIBUTOR";
+    bytes32 private constant SINGULARITY_CONFIG = "SINGULARITY_CONFIG";
 
 
     /**
@@ -211,6 +212,22 @@ contract LendingPoolAddressesProvider is Ownable, ILendingPoolAddressesProvider,
     function setTokenDistributor(address _tokenDistributor) public onlyOwner {
         _setAddress(TOKEN_DISTRIBUTOR, _tokenDistributor);
         emit TokenDistributorUpdated(_tokenDistributor);
+    }
+
+    /**
+    * @dev returns the address of the SingularityConfig
+    * @return the singularity config address
+    **/
+    function getSingularityConfig() public view returns (address) {
+        return getAddress(SINGULARITY_CONFIG);
+    }
+
+    /**
+    * @dev updates the implementation of the SingularityConfig
+    * @param _singularityConfig the new singularity config implementation
+    **/
+    function setSingularityConfigImpl(address _singularityConfig) public onlyOwner {
+        updateImplInternal(SINGULARITY_CONFIG, _singularityConfig);
     }
 
 

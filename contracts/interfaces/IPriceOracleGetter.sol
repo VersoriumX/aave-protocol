@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 /************
 @title IPriceOracleGetter interface
-@notice Interface for the Aave price oracle.*/
+@notice Interface for the VersoriumX price oracle.*/
 interface IPriceOracleGetter {
     /***********
     @dev returns the asset price in ETH

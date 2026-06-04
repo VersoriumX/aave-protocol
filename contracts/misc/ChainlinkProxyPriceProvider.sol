@@ -7,11 +7,11 @@ import "../interfaces/IChainlinkAggregator.sol";
 import "../libraries/EthAddressLib.sol";
 
 /// @title ChainlinkProxyPriceProvider
-/// @author Aave
+/// @author VersoriumX Technology
 /// @notice Proxy smart contract to get the price of an asset from a price source, with Chainlink Aggregator
 ///         smart contracts as primary option
 /// - If the returned price by a Chainlink aggregator is <= 0, the call is forwarded to a fallbackOracle
-/// - Owned by the Aave governance system, allowed to add sources for assets, replace them
+/// - Owned by the VersoriumX governance system, allowed to add sources for assets, replace them
 ///   and change the fallbackOracle
 contract ChainlinkProxyPriceProvider is IPriceOracleGetter, Ownable {
 
@@ -31,7 +31,7 @@ contract ChainlinkProxyPriceProvider is IPriceOracleGetter, Ownable {
         internalSetAssetsSources(_assets, _sources);
     }
 
-    /// @notice External function called by the Aave governance to set or replace sources of assets
+    /// @notice External function called by the VersoriumX governance to set or replace sources of assets
     /// @param _assets The addresses of the assets
     /// @param _sources The address of the source of each asset
     function setAssetSources(address[] calldata _assets, address[] calldata _sources) external onlyOwner {
@@ -39,7 +39,7 @@ contract ChainlinkProxyPriceProvider is IPriceOracleGetter, Ownable {
     }
 
     /// @notice Sets the fallbackOracle
-    /// - Callable only by the Aave governance
+    /// - Callable only by the VersoriumX governance
     /// @param _fallbackOracle The address of the fallbackOracle
     function setFallbackOracle(address _fallbackOracle) external onlyOwner {
         internalSetFallbackOracle(_fallbackOracle);
