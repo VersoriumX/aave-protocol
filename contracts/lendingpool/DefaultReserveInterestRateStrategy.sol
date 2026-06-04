@@ -13,7 +13,7 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 * @notice implements the calculation of the interest rates depending on the reserve parameters.
 * @dev if there is need to update the calculation of the interest rates for a specific reserve,
 * a new version of this contract will be deployed.
-* @author Aave
+* @author VersoriumX Technology
 **/
 contract DefaultReserveInterestRateStrategy is IReserveInterestRateStrategy {
     using WadRayMath for uint256;

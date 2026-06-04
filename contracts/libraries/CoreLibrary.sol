@@ -5,7 +5,7 @@ import "./WadRayMath.sol";
 
 /**
 * @title CoreLibrary library
-* @author Aave
+* @author VersoriumX Technology
 * @notice Defines the data structures of the reserves and the user data
 **/
 library CoreLibrary {

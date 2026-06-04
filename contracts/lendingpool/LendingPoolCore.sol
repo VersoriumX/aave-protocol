@@ -16,7 +16,7 @@ import "../libraries/EthAddressLib.sol";
 
 /**
 * @title LendingPoolCore contract
-* @author Aave
+* @author VersoriumX Technology
 * @notice Holds the state of the lending pool and all the funds deposited
 * @dev NOTE: The core does not enforce security checks on the update of the state
 * (eg, updateStateOnBorrow() does not enforce that borrowed is enabled on the reserve).

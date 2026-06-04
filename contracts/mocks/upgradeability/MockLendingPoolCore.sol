@@ -16,7 +16,7 @@ import "../../lendingpool/LendingPoolCore.sol";
 
 /*************************************************************************************
 * @title MockLendingPoolCore contract
-* @author Aave
+* @author VersoriumX Technology
 * @notice This is a mock contract to test upgradeability of the AddressProvider
  *************************************************************************************/
 

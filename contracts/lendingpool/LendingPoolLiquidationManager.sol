@@ -17,7 +17,7 @@ import "../interfaces/IPriceOracleGetter.sol";
 
 /**
 * @title LendingPoolLiquidationManager contract
-* @author Aave
+* @author VersoriumX Technology
 * @notice Implements the liquidation function.
 **/
 contract LendingPoolLiquidationManager is ReentrancyGuard, VersionedInitializable {

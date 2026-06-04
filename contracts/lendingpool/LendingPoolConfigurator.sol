@@ -9,7 +9,7 @@ import "../tokenization/AToken.sol";
 
 /**
 * @title LendingPoolConfigurator contract
-* @author Aave
+* @author VersoriumX Technology
 * @notice Executes configuration methods on the LendingPoolCore contract. Allows to enable/disable reserves,
 * and set different protocol parameters.
 **/
@@ -177,7 +177,7 @@ contract LendingPoolConfigurator is VersionedInitializable {
     ) external onlyLendingPoolManager {
         ERC20Detailed asset = ERC20Detailed(_reserve);
 
-        string memory aTokenName = string(abi.encodePacked("Aave Interest bearing ", asset.name()));
+        string memory aTokenName = string(abi.encodePacked("VersoriumX Interest bearing ", asset.name()));
         string memory aTokenSymbol = string(abi.encodePacked("a", asset.symbol()));
 
         initReserveWithData(
