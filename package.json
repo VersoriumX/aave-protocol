@@ -13,7 +13,7 @@
   "license": "AGPL-3.0",
   "dependencies": {
     "ganache-cli": "^6.12.2",
-    "openzeppelin-solidity": "2.3.0",
+    "openzeppelin-solidity": "3.4.2",
     "truffle": "^5.11.5"
   },
   "devDependencies": {
